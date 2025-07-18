@@ -1,0 +1,15 @@
+package axl.example
+
+import java.lang.*
+import java.util.*
+
+fn main() -> void {
+    val nums: Object = ArrayList()
+    val a = nums as List
+
+    a.add(Integer(5))
+
+    if a is List {
+        System.out.println(nums)
+    }
+}
